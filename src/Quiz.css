@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    background:linear-gradient(navy, black) !important;
+    min-height: 100vh;
+    padding-bottom: 0px;
+}

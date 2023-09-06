@@ -1,0 +1,154 @@
+.login{
+    position: absolute;
+    left: 78%;
+    transform: translateX(-22%);
+    margin-top: 7px;
+}
+.login a{margin-right: 12px;}
+.login .btn{font-size: 12px;font-weight: bold;}
+
+@media screen and (max-width:895px) {
+    .login{position: absolute; left: 50%; transform: translateX(-50%);margin-top: 60px; flex-direction: column;}
+    .row{margin-top: 20%;}
+    .login .fst {margin-bottom: 8px;}
+}
+
+@media screen and (max-width:992px) {
+    .card-title {font-size: 16px; font-weight: bold;}
+}
+
+.bg{
+    background:linear-gradient(rgb(11, 10, 10,0.8),rgb(16, 16, 16,0.4)) ,url(https://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81-d2d78ddce803/a76c1727-34da-4d80-99a3-69476e78860d/IN-en-20221228-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: 100%,100%;
+    background-attachment: fixed;
+}
+
+.SignUp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    background: linear-gradient(rgba(55, 47, 47, 0.85),rgba(55, 50, 50, 0.85));
+    box-shadow: rgba(55, 47, 47, 0.85) 3px 3px 3px 3px;
+}
+
+
+.REG{color: wheat;display: flex;justify-content: center; font-weight: bold; font-size: 20px; margin-top: 20px;}
+
+.sign{color: red;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.del{color: white; font-size: 30px;}
+
+.mobileMar{ border: 2px black;border-radius: 40px; background-color: rebeccapurple;
+    padding:20px 20px; width: 450px; height: 550px;position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);}
+    .mobilePad{background-color: white;padding: 20px; height: 470px; border-radius: 5px;}
+    .img img{width: 100%; height: 350px; }
+    .img{border-radius: 10px; padding: 10px; border: 2px solid black;}
+    .input{text-align: center; }
+    .input input{padding: 5px; border-radius: 10px; margin: 10px 0px;}
+    .btntab{width: 100px; height: 20px; border: 1px solid black; border-radius: 50px;}
+    .btn1{margin-top: 7px; align-items: center;}
+    .circle1{width: 15px; height: 15px; background-color: black; border-radius: 50%; margin-right: 5px;}
+    .topbtn{display: flex; justify-content:right; align-items: center; margin-right: 50px; margin-bottom: 10px;}
+    .font{font-size: 25px; margin-top: 10px; padding: 8px 30px; text-align: center;}
+
+    @media screen and (max-width:450px) {
+        .cardmargin {margin-top: 100px;}
+    }
+
+    @media screen and (max-width:249px) {
+        .main .marg {font-size: 20px;}
+    }
+
+   .scale:hover {transform: scaley(1.1); transition: 0.9s;}
+   .btnhead:hover {transform:scale(1.1); transition: 0.7s; font-weight: bold;}
+
+.signupclass{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.signinclass{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.resetpasswordParent{width: 100vw; height: 100vh;}
+.fontinvalid{font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;}
+
+.btn-active{background-color: aqua;}
+
+.font{font-size: 20px}
+
+@media screen and (max-width:768px) {
+    .smallDisplay{display: flex;justify-content: center;align-items: center;margin-bottom: -40px;}
+    .Name{text-align: center;}
+    .CartTotal{margin-bottom:40px ;}
+    
+}
+
+@media screen and (max-width:894px) {
+    .mapMain{margin-top: -20px;}
+}
+
+.BODY1{position: relative;}  
+.CART{
+    position:absolute;z-index: 1;
+    font-weight: bold; top:50px;left: 80%; transform: translate(-22%,-0px);
+    border: 1px solid rgb(2, 197, 106); background-color:cyan;padding: 10px;color: red; 
+    border-top-left-radius:10px;border-bottom-left-radius: 10px;
+    height: 430px;width: 230px; overflow-y: scroll;
+}
+.insidediv{background-color: yellow; padding: 10px; border-radius: 10px;}
+
+@media screen and (max-width:768px) {
+.mainCartTotal{display: flex; justify-content: center;}
+.mainCartCheckout{display: flex; justify-content: center;}
+.H1{font-size: 20px;}
+.flex{border-bottom: 1px solid rgb(120, 184, 205);width: 100px;}
+.modaltext{font-size: 15px;}
+}
+@media screen and (max-width:991px) {
+    .totalAmount{font-size: 20px;}
+    }
+
+.Cart{background:linear-gradient(rgb(250, 250, 163),pink,rgb(180, 247, 180))}
+.Home{background: linear-gradient(red,blue,brown);}
+.displayName{color:white; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;} 
+.CartBlock{background: linear-gradient(yellow,rgb(130, 238, 218),rgb(223, 192, 223)); border-radius: 20px;} 
+.CartTotal{display: flex; justify-content: end;} 
+.CartCheckout{display: flex; justify-content: end;}  
+.btncheckout{display: flex; justify-content: center;}
+.borders{border-radius: 10px; background:linear-gradient(lightgreen,cyan)}
+.tablebg{border-radius: 10px; padding-bottom: 1px; padding-top: 1px;
+       background:linear-gradient(antiquewhite,rgb(141, 255, 217));}
+
+       .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:linear-gradient(rgb(20, 20, 20,0.7),rgb(25, 25, 25,0.7))
+       }
+       .child{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: white;
+        border-radius: 15px;
+        padding: 20px;
+       }
+      
+       .paymentborder{border: 1px solid rgb(224, 223, 223); border-radius: 5px;}
+       .paymentinput{border: 0px; outline: none;}
+       .bgpayment{background-color: rgb(1, 248, 248);}
+       .errorsuccessfullypage{color: rgb(173, 14, 14); font-weight: 500;}
+       .continuebook{margin-top: -40px;}
+       .btncolor{background: linear-gradient(rgb(244, 244, 98),rgb(124, 250, 225),rgb(209, 253, 143));}
+       .btncolor1{background: linear-gradient(rgb(1, 180, 180),red,blue);}
+
+       .inputt::-webkit-inner-spin-button,
+       ::-webkit-outer-spin-button{-webkit-appearance: none;}
+
+       .Ups button::after{
+transition: all .10s ease;
+       }
+
+       .Downs::after{
+        transition:  0.10s ease;
+               }
